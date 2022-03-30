@@ -165,14 +165,18 @@ a {
           transform: scale(1.1);
 }
 #aboutflex{
+  justify-self: center;
   display:flex;
   /* border:1px solid red; */
-  /* width: 100%; */
-  /* margin:5%; */
+  width: 100%;
+  margin:5%;
 }
 #aboutflex img{
-  height:500px;
+  height:270px;
   /* border-radius: 50%; */
+  margin-top: 8%;
+  /* border:1px solid red */
+
 }
 #aboutflex p{
   margin-left: 7%;
@@ -180,7 +184,18 @@ a {
   font-size: larger;
 }
 #aboutflex a{
-  color: #007bb5;
+  color: white;
+  background-color: #7c00c9;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  margin-top: 89%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .skills {
@@ -274,7 +289,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 69%;
+  margin-top: 58%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -288,7 +303,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 69%;
+  margin-top: 58%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -302,7 +317,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 69%;
+  margin-top: 58%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -315,7 +330,10 @@ a {
 .work .title {
   color: black;
   padding: 5px 0px;
+  /* margin-top: 12%; */
+  /* justify-self: center; */
 }
+
 
 .work .project:hover .overlay {
   opacity: 1;
@@ -623,10 +641,28 @@ a {
   #aboutflex{
     display:grid;
     /* border: 1px solid red; */
-    /* width:75% */
+    width:90%
+  }
+  #aboutflex a{
+    margin-top: 450%;
+     left: 50%;
+     
+     /* justify-self: center; */
+  }
+  #aboutflex p{
+    /* margin-top: 495%; */
+     /* justify-self: center; */
+     margin-right: 8%;
+     
+     justify-self: center;
   }
   #aboutflex img{
-    justify-self: center;
+    justify-self: center; 
+    /* height: 50%; */
+    /* margin-right: 24%; */
+
+    /* margin-top: 15%; */
+    /* width:50%; */
   }
   .work .col-12 {
     margin-bottom: 30px;
@@ -636,13 +672,13 @@ a {
     /* border: 1px solid red */
   }
   .github {
-    margin-top: 65%;
+    margin-top: 52%;
   }
   .github1 {
-    margin-top: 80%;
+    margin-top: 65%;
   }
   .github2 {
-    margin-top: 77%;
+    margin-top: 70%;
   }
   .activities codersrank-activity {
     --svg-width: 100%;
